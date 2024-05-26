@@ -15,7 +15,7 @@ bool linear_search(int arr[], int size, int key){
 
 int main(){
     int size = 7;
-    int arr[size] = {1,2,3,4,5,6,7};
+    int arr[7] = {1,2,3,4,5,6,7};
     int key = 9;
     int ans = linear_search(arr, size, key);
     if(ans)

@@ -2,7 +2,7 @@
 using namespace std;
 int addition_of_array(int arr[], int size){
     if(size==0){
-        return 0;
+        return 0; 
     }
     if(size==1){
         return arr[0];
