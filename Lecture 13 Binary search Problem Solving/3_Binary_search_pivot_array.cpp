@@ -29,7 +29,7 @@ int find_pivot(int arr[], int n){
 }
 
 int main(){
-    int arr[5] = {4,3,5,6,8,1};
+    int arr[5] = {4,3,5,6,8};
     cout<<"pivot of this array is: "<<find_pivot(arr, 5);
 
 
